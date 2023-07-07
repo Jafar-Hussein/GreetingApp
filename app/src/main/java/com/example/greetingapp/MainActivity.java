@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button btn;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { // this is called when the activity is created
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         image = findViewById(R.id.imageView);
